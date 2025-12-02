@@ -7,15 +7,9 @@ export default function Home() {
           <span className="font-semibold text-lg">Henry Maloba</span>
 
           <div className="flex items-center gap-6 text-sm">
-            <a href="#" className="hover:underline">
-              Home
-            </a>
-            <a href="#publications" className="hover:underline">
-              Research
-            </a>
-            <a href="mailto:youremail@example.com" className="hover:underline">
-              Contact
-            </a>
+            <a href="#" className="hover:underline">Home</a>
+            <a href="#publications" className="hover:underline">Research</a>
+            <a href="mailto:youremail@example.com" className="hover:underline">Contact</a>
           </div>
         </div>
       </nav>
@@ -27,7 +21,6 @@ export default function Home() {
             Designing the timing layer of money
           </h1>
 
-          {/* Lab Thesis */}
           <p className="text-lg text-neutral-600 leading-relaxed">
             Liquidity Sequencing Lab is a research and engineering practice building
             Liquidity Sequencing Infrastructure (LSI) – a “global liquidity brain” that
@@ -35,7 +28,6 @@ export default function Home() {
             currencies through one policy engine.
           </p>
 
-          {/* Mission Sentence */}
           <p className="text-base text-neutral-700 leading-relaxed">
             Modern financial systems often fail at the micro-timing layer—when incomes and
             obligations collide out of order. My work focuses on modeling, sequencing, and
@@ -46,25 +38,19 @@ export default function Home() {
 
         {/* CTA */}
         <div className="mt-10 flex gap-4">
-          <a
-            href="#publications"
-            className="px-6 py-3 bg-black text-white rounded-full inline-flex items-center justify-center"
-          >
+          <a href="#publications"
+             className="px-6 py-3 bg-black text-white rounded-full inline-flex items-center justify-center">
             View Research Portfolio
           </a>
-          <a
-            href="mailto:youremail@example.com"
-            className="px-6 py-3 border border-black rounded-full inline-flex items-center justify-center"
-          >
+          <a href="mailto:youremail@example.com"
+             className="px-6 py-3 border border-black rounded-full inline-flex items-center justify-center">
             Contact Henry
           </a>
         </div>
 
         {/* WHAT IS LSI */}
         <section className="mt-24 max-w-4xl space-y-4 text-center">
-          <h2 className="text-2xl font-semibold">
-            What is Liquidity Sequencing Infrastructure (LSI)?
-          </h2>
+          <h2 className="text-2xl font-semibold">What is Liquidity Sequencing Infrastructure (LSI)?</h2>
           <p className="text-base text-neutral-700 leading-relaxed">
             Liquidity Sequencing Infrastructure is the layer that decides <strong>when</strong> and
             in what order money moves. Instead of treating payments, credit, and collateral
@@ -78,23 +64,19 @@ export default function Home() {
 
         {/* CORE IDEA */}
         <section className="mt-24 max-w-4xl space-y-4 text-center">
-          <h2 className="text-2xl font-semibold">
-            Money is not just stored. It is sequenced.
-          </h2>
+          <h2 className="text-2xl font-semibold">Money is not just stored. It is sequenced.</h2>
           <p className="text-base text-neutral-700 leading-relaxed">
             The lab investigates what becomes possible when money is treated as a global,
             always-on medium instead of something fragmented by time zones, clearing
-            cycles, and corridor rules. We prototype architectures that let liquidity
-            move on its own schedule—not on the system’s—and evaluate how these
-            structures improve resilience across households, firms, and institutions.
+            cycles, and corridor rules. We prototype architectures that let liquidity move
+            on its own schedule—not on the system’s—and evaluate how these structures
+            improve resilience across households, firms, and institutions.
           </p>
         </section>
 
         {/* RESEARCH AGENDA */}
         <section className="mt-24 max-w-5xl space-y-10">
-          <h2 className="text-2xl font-semibold text-center">
-            Research Agenda
-          </h2>
+          <h2 className="text-2xl font-semibold text-center">Research Agenda</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-left">
             <div className="space-y-2">
@@ -119,8 +101,7 @@ export default function Home() {
               <h3 className="text-lg font-semibold">System Design for Economic Stability</h3>
               <p className="text-neutral-700 leading-relaxed">
                 Exploring how technology, policy, and institutional incentives can be
-                aligned so that resilience is engineered in the system design—instead of
-                being assumed or outsourced during crises.
+                aligned to engineer resilience rather than assume it.
               </p>
             </div>
           </div>
@@ -128,9 +109,7 @@ export default function Home() {
 
         {/* APPLIED WORK */}
         <section className="mt-24 max-w-5xl space-y-6">
-          <h2 className="text-2xl font-semibold text-center">
-            Applied Research &amp; Systems
-          </h2>
+          <h2 className="text-2xl font-semibold text-center">Applied Research &amp; Systems</h2>
 
           <p className="text-center max-w-3xl mx-auto text-neutral-700 leading-relaxed">
             I test liquidity-sequencing ideas in real architectures—payment networks,
@@ -150,8 +129,8 @@ export default function Home() {
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">Cross-Border Settlement Design</h3>
               <p className="text-neutral-700 leading-relaxed">
-                Designing wallet-based settlement structures and routing rules optimized
-                for speed, transparency, and liquidity efficiency across currencies.
+                Designing wallet-based settlement structures optimized for speed,
+                transparency, and liquidity efficiency.
               </p>
             </div>
 
@@ -166,21 +145,77 @@ export default function Home() {
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">Transactional Flow Optimization</h3>
               <p className="text-neutral-700 leading-relaxed">
-                Analyzing sequences of transactions, fees, and routing logic to minimize
-                unnecessary waiting, volatility, and systemic fragility.
+                Analyzing transaction sequences, routing logic, and wallet mechanics to
+                minimize delays, volatility, and systemic fragility.
               </p>
             </div>
           </div>
         </section>
 
+        {/* INSIDE THE LAB */}
+        <section className="mt-24 max-w-5xl space-y-6">
+          <h2 className="text-2xl font-semibold text-center">Inside the Lab</h2>
+
+          <p className="text-center max-w-3xl mx-auto text-neutral-700 leading-relaxed">
+            The Liquidity Sequencing Lab wiki documents the technical backbone of this work:
+            core architecture, sequencing models, optimization engines, and simulations.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left text-sm">
+
+            <a href="https://github.com/henryegesa/LiquiditySequencingLab/wiki/What-is-LSI"
+               className="space-y-1 hover:underline" target="_blank" rel="noreferrer">
+              <h3 className="font-semibold">What is LSI?</h3>
+              <p className="text-neutral-700">
+                Overview of Liquidity Sequencing Infrastructure and its role in financial systems.
+              </p>
+            </a>
+
+            <a href="https://github.com/henryegesa/LiquiditySequencingLab/wiki/Architecture-Overview"
+               className="space-y-1 hover:underline" target="_blank" rel="noreferrer">
+              <h3 className="font-semibold">Architecture Overview</h3>
+              <p className="text-neutral-700">
+                System components, data flows, and deployment considerations.
+              </p>
+            </a>
+
+            <a href="https://github.com/henryegesa/LiquiditySequencingLab/wiki/Sequencing-Graph"
+               className="space-y-1 hover:underline" target="_blank" rel="noreferrer">
+              <h3 className="font-semibold">Sequencing Graph</h3>
+              <p className="text-neutral-700">
+                Graph-based model of events, dependencies, and timing costs.
+              </p>
+            </a>
+
+            <a href="https://github.com/henryegesa/LiquiditySequencingLab/wiki/Flow-Optimization-Engine"
+               className="space-y-1 hover:underline" target="_blank" rel="noreferrer">
+              <h3 className="font-semibold">Flow Optimization Engine</h3>
+              <p className="text-neutral-700">
+                Optimization layer that determines ordering and liquidity source selection.
+              </p>
+            </a>
+
+            <a href="https://github.com/henryegesa/LiquiditySequencingLab/wiki/Liquidity-Time-Curve"
+               className="space-y-1 hover:underline" target="_blank" rel="noreferrer">
+              <h3 className="font-semibold">Liquidity–Time Curve</h3>
+              <p className="text-neutral-700">
+                How liquidity availability evolves over time under different constraints.
+              </p>
+            </a>
+
+            <a href="https://github.com/henryegesa/LiquiditySequencingLab/wiki/Simulations"
+               className="space-y-1 hover:underline" target="_blank" rel="noreferrer">
+              <h3 className="font-semibold">Simulations</h3>
+              <p className="text-neutral-700">
+                Corridor experiments, stress tests, and scenario analysis.
+              </p>
+            </a>
+          </div>
+        </section>
+
         {/* PUBLICATIONS */}
-        <section
-          id="publications"
-          className="mt-24 max-w-5xl space-y-6"
-        >
-          <h2 className="text-2xl font-semibold text-center">
-            Selected Research &amp; Writing
-          </h2>
+        <section id="publications" className="mt-24 max-w-5xl space-y-6">
+          <h2 className="text-2xl font-semibold text-center">Selected Research &amp; Writing</h2>
 
           <div className="space-y-4 text-left max-w-3xl mx-auto text-neutral-800">
             <div>
@@ -188,8 +223,7 @@ export default function Home() {
                 Rewriting the Geography of Money: A Three-Pillar Framework for Programmable Liquidity
               </h3>
               <p className="text-sm text-neutral-600">
-                Journal article on how programmable liquidity reshapes payment-system
-                topology, participant incentives, and stability.
+                Journal article on how programmable liquidity reshapes payment-system topology.
               </p>
             </div>
 
@@ -198,8 +232,7 @@ export default function Home() {
                 Designing Low-Cost Payment Networks in Mature Financial Markets
               </h3>
               <p className="text-sm text-neutral-600">
-                Working paper on how to build cost-efficient, regulation-aware payment
-                networks that remain compatible with existing rails.
+                Working paper on building cost-efficient, regulation-aware payment networks.
               </p>
             </div>
 
@@ -208,8 +241,7 @@ export default function Home() {
                 Engineering an M-PESA for the U.S. Market
               </h3>
               <p className="text-sm text-neutral-600">
-                Conceptual and architectural study of mobile-money-inspired systems in
-                advanced financial ecosystems.
+                Architectural study of mobile-money-inspired systems in advanced ecosystems.
               </p>
             </div>
           </div>
@@ -217,9 +249,7 @@ export default function Home() {
 
         {/* ABOUT */}
         <section className="mt-24 max-w-3xl space-y-4 mb-24">
-          <h2 className="text-2xl font-semibold text-center">
-            About Henry
-          </h2>
+          <h2 className="text-2xl font-semibold text-center">About Henry</h2>
           <p className="text-base text-neutral-700 leading-relaxed text-center">
             Practitioner–scholar working at the intersection of payments, liquidity, and
             system design. My work focuses on how timing, flow-based architectures, and
