@@ -21,15 +21,26 @@ export default function Home() {
       </nav>
 
       <main className="min-h-screen bg-white text-black px-6 py-24 flex flex-col items-center">
-        {/* HERO */}
+        {/* HERO / LAB INTRO */}
         <section className="max-w-3xl text-center space-y-6 mt-10">
           <h1 className="text-4xl font-semibold tracking-tight">
-            Designing the next architecture of money
+            Designing the timing layer of money
           </h1>
 
-          <p className="text-lg text-neutral-600">
-            Researching how liquidity, timing, and flow-based systems reshape finance,
-            policy, and economic resilience.
+          {/* Lab Thesis */}
+          <p className="text-lg text-neutral-600 leading-relaxed">
+            Liquidity Sequencing Lab is a research and engineering practice building
+            Liquidity Sequencing Infrastructure (LSI) – a “global liquidity brain” that
+            orchestrates cash, collateral, and credit across products, entities, and
+            currencies through one policy engine.
+          </p>
+
+          {/* Mission Sentence */}
+          <p className="text-base text-neutral-700 leading-relaxed">
+            Modern financial systems often fail at the micro-timing layer—when incomes and
+            obligations collide out of order. My work focuses on modeling, sequencing, and
+            optimizing liquidity flows to build more resilient financial systems across
+            borders, institutions, and populations.
           </p>
         </section>
 
@@ -49,16 +60,33 @@ export default function Home() {
           </a>
         </div>
 
+        {/* WHAT IS LSI */}
+        <section className="mt-24 max-w-4xl space-y-4 text-center">
+          <h2 className="text-2xl font-semibold">
+            What is Liquidity Sequencing Infrastructure (LSI)?
+          </h2>
+          <p className="text-base text-neutral-700 leading-relaxed">
+            Liquidity Sequencing Infrastructure is the layer that decides <strong>when</strong> and
+            in what order money moves. Instead of treating payments, credit, and collateral
+            as separate products, LSI models them as interdependent flows over time. It
+            ingests events from banks, wallets, payroll engines, and markets; sequences
+            them on a graph; and applies a policy engine to optimize who gets paid, in
+            what order, and with which liquidity source—subject to risk, regulation, and
+            stability constraints.
+          </p>
+        </section>
+
         {/* CORE IDEA */}
         <section className="mt-24 max-w-4xl space-y-4 text-center">
           <h2 className="text-2xl font-semibold">
             Money is not just stored. It is sequenced.
           </h2>
           <p className="text-base text-neutral-700 leading-relaxed">
-            Modern financial systems often fail at the micro-timing layer—when incomes and
-            obligations collide out of order. My work focuses on modeling, sequencing, and
-            optimizing liquidity flows to build more resilient financial systems across
-            borders, institutions, and populations.
+            The lab investigates what becomes possible when money is treated as a global,
+            always-on medium instead of something fragmented by time zones, clearing
+            cycles, and corridor rules. We prototype architectures that let liquidity
+            move on its own schedule—not on the system’s—and evaluate how these
+            structures improve resilience across households, firms, and institutions.
           </p>
         </section>
 
@@ -72,24 +100,27 @@ export default function Home() {
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">Liquidity Sequencing</h3>
               <p className="text-neutral-700 leading-relaxed">
-                Studying how timing functions as a form of capital and how misaligned
-                liquidity flows create systemic fragility across households and institutions.
+                Studying how timing functions as a form of capital, and how the ordering
+                of incomes, obligations, and transfers creates or relieves liquidity
+                stress for households, firms, and institutions.
               </p>
             </div>
 
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">Cross-Border Infrastructure</h3>
               <p className="text-neutral-700 leading-relaxed">
-                Designing architectures that reduce friction, shorten settlement, and
-                increase transparency between monetary zones.
+                Designing wallet- and ledger-based architectures that reduce friction,
+                shorten settlement paths, and increase transparency across currency zones
+                and regulatory regimes.
               </p>
             </div>
 
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">System Design for Economic Stability</h3>
               <p className="text-neutral-700 leading-relaxed">
-                Exploring how technology, policy, and institutional structures can be
-                aligned to engineer resilience rather than assume it.
+                Exploring how technology, policy, and institutional incentives can be
+                aligned so that resilience is engineered in the system design—instead of
+                being assumed or outsourced during crises.
               </p>
             </div>
           </div>
@@ -98,45 +129,45 @@ export default function Home() {
         {/* APPLIED WORK */}
         <section className="mt-24 max-w-5xl space-y-6">
           <h2 className="text-2xl font-semibold text-center">
-            Applied Work
+            Applied Research &amp; Systems
           </h2>
 
           <p className="text-center max-w-3xl mx-auto text-neutral-700 leading-relaxed">
-            I apply liquidity-based thinking to real-world systems—payment networks, payroll engines,
-            credit algorithms, and cross-border flows—to understand how economic stability can be
-            engineered rather than assumed.
+            I test liquidity-sequencing ideas in real architectures—payment networks,
+            payroll engines, credit rails, and cross-border corridors—to understand how
+            economic stability can be engineered rather than assumed.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 text-left">
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">Liquidity Sequencing Models</h3>
               <p className="text-neutral-700 leading-relaxed">
-                Modeling income–obligation synchronization, flow-timing constraints,
-                and liquidity stress propagation.
+                Modeling income–obligation synchronization, flow-timing constraints, and
+                how liquidity stress propagates through a timing graph of events.
               </p>
             </div>
 
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">Cross-Border Settlement Design</h3>
               <p className="text-neutral-700 leading-relaxed">
-                Designing wallet-based settlement structures optimized for speed, transparency,
-                and multi-currency interoperability.
+                Designing wallet-based settlement structures and routing rules optimized
+                for speed, transparency, and liquidity efficiency across currencies.
               </p>
             </div>
 
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">Liquidity-Centered Credit Algorithms</h3>
               <p className="text-neutral-700 leading-relaxed">
-                Building credit models that account for timing precision, income stability,
-                and short-duration liquidity patterns.
+                Building credit approaches that look beyond static scores to timing:
+                cash-flow regularity, volatility, and short-duration liquidity gaps.
               </p>
             </div>
 
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">Transactional Flow Optimization</h3>
               <p className="text-neutral-700 leading-relaxed">
-                Analyzing transaction sequences, routing logic, and wallet mechanics to reduce
-                delays, volatility, and systemic fragility.
+                Analyzing sequences of transactions, fees, and routing logic to minimize
+                unnecessary waiting, volatility, and systemic fragility.
               </p>
             </div>
           </div>
@@ -157,8 +188,8 @@ export default function Home() {
                 Rewriting the Geography of Money: A Three-Pillar Framework for Programmable Liquidity
               </h3>
               <p className="text-sm text-neutral-600">
-                Journal article examining how programmable liquidity reshapes the structure and logic of
-                modern payment systems.
+                Journal article on how programmable liquidity reshapes payment-system
+                topology, participant incentives, and stability.
               </p>
             </div>
 
@@ -167,8 +198,8 @@ export default function Home() {
                 Designing Low-Cost Payment Networks in Mature Financial Markets
               </h3>
               <p className="text-sm text-neutral-600">
-                Working paper on engineering payment infrastructure that reduces settlement cost while
-                maintaining regulatory robustness.
+                Working paper on how to build cost-efficient, regulation-aware payment
+                networks that remain compatible with existing rails.
               </p>
             </div>
 
@@ -177,8 +208,8 @@ export default function Home() {
                 Engineering an M-PESA for the U.S. Market
               </h3>
               <p className="text-sm text-neutral-600">
-                Conceptual and architectural analysis of mobile-money inspired systems in advanced
-                financial ecosystems.
+                Conceptual and architectural study of mobile-money-inspired systems in
+                advanced financial ecosystems.
               </p>
             </div>
           </div>
@@ -190,9 +221,10 @@ export default function Home() {
             About Henry
           </h2>
           <p className="text-base text-neutral-700 leading-relaxed text-center">
-            Practitioner–scholar working at the intersection of payments, liquidity, and system design.
-            My work focuses on how timing, flow-based architecture, and cross-border infrastructure can
-            be engineered to improve financial resilience for households, firms, and institutions.
+            Practitioner–scholar working at the intersection of payments, liquidity, and
+            system design. My work focuses on how timing, flow-based architectures, and
+            cross-border infrastructure can be engineered to improve financial resilience
+            for households, firms, and institutions.
           </p>
         </section>
       </main>
